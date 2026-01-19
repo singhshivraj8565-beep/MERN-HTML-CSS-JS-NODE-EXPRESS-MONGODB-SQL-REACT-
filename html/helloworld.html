@@ -208,18 +208,32 @@ LIST IN HTML
     <title>HTML Level 3</title>
 </head>
 <body>
-  <form action="/action">
+  <form action="/server">
     <div>
       <label for="Username">Username :</label>
-      <input type="text" placeholder="enter Username" id="Username" />
+      <input type="text"
+      placeholder="enter Username" 
+      id="Username" 
+      name="Username"/>
     </div>
     <div>
         <label for="password">password :</label>
         <input type="password" placeholder="enter password" id="password" />
     </div>
+    <button>submit</button>
+    <br />
+    <input type="button" value="click me">
+    <input type="submit" >
+  </form>
+  <hr />
+  <form action="https://www.youtube.com/results">
+    <input type="text" placeholder="search in youtube" name="search_query" />
+    <button>search</button>
   </form> 
 </body>
 </html>
+
+
 
 
 
